@@ -1,0 +1,40 @@
+li{
+    list-style: none;
+}
+li:first-child a{
+    color: green;
+}
+li:nth-child(even){
+    font-size: 20px;
+}
+li:nth-child(odd){
+    font-size: 18px;
+}
+li:nth-child(3n+1){
+    background: yellow;
+}
+a{
+    text-decoration: none;
+}
+li:hover a{
+    background: pink;
+    color: blue;
+}
+li::before{
+    content: "-";
+}
+h3:first-child {
+    color: pink;
+}
+#greycol{
+    color: grey;
+}
+div:nth-child(5){
+    color: red;
+}
+p:nth-child(7){
+    color: green;
+}
+.yellow{
+    color: yellow;
+}

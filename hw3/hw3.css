@@ -1,0 +1,31 @@
+.Text{
+    color: green;
+}
+.holder a[href^="https://"] {
+    color: #f00;
+}
+.holder a[href^="http://"]{
+    color:  #ff8d00;
+}
+.holder ul+p{
+    font-size: 26px;
+}
+.holder [title]{
+    border: 1px solid #067b09;
+}
+
+#greycol{
+    color: gray;
+}
+.text-box div > p {
+    color: red;
+}
+.text-box h3[title="text"]{
+    color: blue;
+}
+.text-box h3[title="text"]+p{
+    color: green;  
+}
+.yellow{
+    color: yellow;
+}

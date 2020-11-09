@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    /* background-image: url('img'); */
+}
+.maket{
+    font-size: 20px;
+    line-height: 25px;
+    text-indent: 40px;
+    letter-spacing: 1px;
+    font-family: 'Space Grotesk', Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 5px;
+}
+.bg-box{
+    padding: 300px 0;
+    background-color: green;
+    background-image: 
+    url(../images/grass-png-images-pictures-transparent-28.png), 
+    url(../images/pole-zelen-trava-dom-derevya.jpg),
+    url(../images/lamp-png-0.png),
+    url(../images/пончик.png), 
+    url(../images/Ёжик.png);
+    background-position: left bottom, center center, left top,right top, left top;
+    background-repeat: repeat-x, no-repeat, repeat-x, repeat-y, repeat-y;
+    background-size: 300px 150px, auto auto, auto 50px, auto 50px, auto 50px;
+}
+div[class^='box'] {
+    width: 100px;
+    height: 100px;
+}
+.box1{
+    background: repeating-linear-gradient( 0deg, green 0, green 10px, white 10px, white 20px );
+}
+.box2{
+    background: linear-gradient(to top left, black 20%, grey 20%, grey 80%, black 80%) ;
+}
+.box3{
+    background: radial-gradient(red 20%, black 20%, black);
+}
